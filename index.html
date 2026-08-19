@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+
+
+<body>
+    
+    <div class="calculator">
+
+        <div class="display" id="show"></div>
+
+        <div class="btn">
+
+            <button onclick="calculateValue('*')" class="action">*</button>
+            <button onclick="calculateValue('/')" class="action">/</button>
+            <button onclick="calculateValue('-')" class="action">-</button>
+            <button onclick="calculateValue('+')" class="action">+</button>
+
+            <button onclick="calculateValue(9)" class="number">9</button>
+            <button onclick="calculateValue(8)" class="number">8</button>
+            <button onclick="calculateValue(7)" class="number">7</button>
+            <button onclick="calculateValue(6)" class="number">6</button>
+
+            <button onclick="calculateValue(5)" class="number">5</button>
+            <button onclick="calculateValue(4)" class="number">4</button>
+            <button onclick="calculateValue(3)" class="number">3</button>
+            <button onclick="calculateValue(2)" class="number">2</button>
+
+            <button onclick="calculateValue(1)" class="number">1</button>
+            <button onclick="calculateValue(0)" class="number">0</button>
+            <button onclick="calculateValue('.')" class="number">.</button>
+            <button onclick="calculateValue('=')" class="equal">=</button>
+
+            <button onclick="calculateValue('C')" class="clear">C</button>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
